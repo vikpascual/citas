@@ -1,0 +1,28 @@
+/* Creado Por Víctor Pascual Muñoz */
+@charset "utf-8";
+body {
+    background: #33E7FF;
+}
+header h1 {
+    text-transform: uppercase;
+    color: #005A66;
+    text-align: center;
+    letter-spacing: 50px;
+    font-size: 300%;
+}
+p {
+    border: #005A66 5px dashed;
+    width: 18%;
+    float: left;
+    margin-right: 5%;
+    height: 256px;
+    padding: 8px;
+    font-style: italic;
+    background: #00B4CC;
+    font-size: 24px;
+}
+p::first-letter {
+    color: #005A66;
+    font-size: 300%;
+    line-height: 3rem;
+}
